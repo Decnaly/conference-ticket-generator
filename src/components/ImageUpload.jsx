@@ -5,8 +5,8 @@ export const ImageUpload = ({ onImageUpload }) => {
     if (window.cloudinary) {
       const widget = window.cloudinary.createUploadWidget(
         {
-          cloudName: 'dix5u2jlc',
-          uploadPreset: 'Ticket Generator', // Replace with your upload preset
+          cloudName: 'drsnrnwyt',
+          uploadPreset: 'generate-avatar',
           sources: ['local', 'url', 'camera'],
           multiple: false,
           maxFiles: 1,
