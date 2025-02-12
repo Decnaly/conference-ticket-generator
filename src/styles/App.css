@@ -6,5 +6,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    background-color: #1a1a1a; /* Dark background to match your screenshot */
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #1a7199);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
   }
